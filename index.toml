@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "e74b78df7003a6d0a047b3e7383b1f9ca330299a765547ce1abb7f3c658ac159"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "4bfa87617166494def21a996b9b0bc15d65bfa9357dc22c4ed213871f8a96fee"
 
@@ -955,6 +959,11 @@ metafile = true
 [[files]]
 file = "mods/iceberg.pw.toml"
 hash = "8a182f9c57dca3a2691ae78c94d30c40be4d61f6e4006ba2037223a503bcb961"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "efa7f152645047ef83ee81d0319b27fa938b1de8fc3ff586510931257eb18cd3"
 metafile = true
 
 [[files]]
