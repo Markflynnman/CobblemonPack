@@ -1,0 +1,13 @@
+name = "JigglyRadio"
+filename = "Jigglyradio1.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YLcccJCk/versions/vGCUYi1E/Jigglyradio1.3.zip"
+hash-format = "sha1"
+hash = "55988eb9dfad604734aecaf24c4d40b36dcca9dc"
+
+[update]
+[update.modrinth]
+mod-id = "YLcccJCk"
+version = "vGCUYi1E"

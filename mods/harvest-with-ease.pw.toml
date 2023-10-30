@@ -1,0 +1,13 @@
+name = "Harvest with ease"
+filename = "harvestwithease-1.20.1-7.0.0.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W4Ajthd2/versions/zhKBvBGQ/harvestwithease-1.20.1-7.0.0.2-forge.jar"
+hash-format = "sha1"
+hash = "af0b531e9f34a66224a7885fc36ee089ea784d20"
+
+[update]
+[update.modrinth]
+mod-id = "W4Ajthd2"
+version = "zhKBvBGQ"

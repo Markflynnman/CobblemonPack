@@ -1,0 +1,9 @@
+# Exclude exported CurseForge zip files
+*.zip
+
+# Allow .zip from /resourcepacks
+!resourcepacks/**/*.zip
+!global_packs/**/*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack

@@ -1,0 +1,8 @@
+name = "Physics Mod Pro"
+filename = "physics-mod-pro-v163a-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://www.patreon.com/file?h=90896234&i=16163700"
+hash-format = "sha256"
+hash = "5a481c7aa1e8b03d1a0c8d269fa23ade9e2131c975420971ada6bacd94684b76"

@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cobblemon"
+	group: ""
+	id: "3D77F9DBD07783BC"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cobblemon:item/advancements/cobblemon_logo_blue"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cobblemon:item/advancements/cobblemon_logo_purple"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cobblemon:item/advancements/cobblemon_logo_green"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cobblemon:item/advancements/cobblemon_logo"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -8.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B7D7F079FDADA17"]
+			id: "11C72432700E87B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CD1146FBAEC45D8"
+				table_id: 1600307761478784285L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "cobblemon:first_catch"
+				criterion: ""
+				icon: "cobblemon:poke_ball"
+				id: "7CB54E5CB2F238F9"
+				title: "Catch Your First Pokémon!"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2B7D7F079FDADA17"]
+			icon: "cobblemon:premier_ball"
+			id: "366F355CFBF57913"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16B72455EC1B7430"
+					table_id: 1600307761478784285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78594699BEE759D5"
+					table_id: 1600307761478784285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2816E5A1B6BB57E3"
+					table_id: 1600307761478784285L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				action: "catch"
+				entity: "cobblemon_quests:choice_any"
+				id: "7CBA237EB3CC2EFA"
+				shiny: true
+				title: "Catch A Shiny Pokémon!"
+				type: "cobblemon_tasks:cobblemon_task"
+				value: 1L
+			}]
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			description: ["Press \"M\" to claim your starter Pokémon."]
+			id: "2B7D7F079FDADA17"
+			rewards: [{
+				count: 5
+				id: "47733D81A533440B"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cobblemon:root"
+				criterion: ""
+				id: "6C76786FE3B5F2B2"
+				type: "advancement"
+			}]
+			title: "Start Your Pokémon Journey!"
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2B7D7F079FDADA17"]
+			description: ["Take a picture of a Pokémon."]
+			id: "245B19F0CD1C16A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "288627C11AFC9120"
+					table_id: 1600307761478784285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45A1E5A25FF6BFCE"
+					table_id: 1600307761478784285L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "34B1F2E0ACB4F0A0"
+					item: "camera:camera"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0434E9FB6118A6FB"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "cobblemon:love_ball"
+					id: "652833A270BB76BC"
+					observe_type: 5
+					timer: 0L
+					title: "Look at a Pokémon"
+					to_observe: "cobblemon:pokemon"
+					type: "observation"
+				}
+				{
+					id: "2C65A50955E3B460"
+					item: {
+						Count: 1b
+						id: "camera:image"
+						tag: {
+							image: {
+								image_id_least: -9012309737910596182L
+								image_id_most: 2377188311281189651L
+								image_time: 1697600723566L
+								owner: "Markflynnman"
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Pokémon Snap"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11C72432700E87B8"]
+			id: "5EEEBFF174A2B09C"
+			progression_mode: "flexible"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17C5A993C030B39C"
+				table_id: 1600307761478784285L
+				type: "loot"
+			}]
+			tasks: [{
+				action: "catch"
+				entity: "cobblemon_quests:choice_any"
+				id: "3654BC11CE071FFA"
+				shiny: false
+				type: "cobblemon_tasks:cobblemon_task"
+				value: 10L
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+	]
+	title: "Cobblemon"
+}

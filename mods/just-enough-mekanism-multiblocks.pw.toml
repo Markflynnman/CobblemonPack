@@ -1,0 +1,13 @@
+name = "Just Enough Mekanism Multiblocks"
+filename = "JustEnoughMekanismMultiblocks-1.20.1-4.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kRaE85yQ/versions/LUynm64i/JustEnoughMekanismMultiblocks-1.20.1-4.1.jar"
+hash-format = "sha1"
+hash = "31e864092ccbf1bafd516fcba05670810c222940"
+
+[update]
+[update.modrinth]
+mod-id = "kRaE85yQ"
+version = "LUynm64i"

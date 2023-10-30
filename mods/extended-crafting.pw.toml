@@ -1,0 +1,13 @@
+name = "Extended Crafting"
+filename = "ExtendedCrafting-1.20.1-6.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5JMG1gql/versions/57fLhexb/ExtendedCrafting-1.20.1-6.0.3.jar"
+hash-format = "sha1"
+hash = "f1ac54ba079ba87ed33543788dfa31cae09de505"
+
+[update]
+[update.modrinth]
+mod-id = "5JMG1gql"
+version = "57fLhexb"

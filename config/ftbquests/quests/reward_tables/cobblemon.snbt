@@ -1,0 +1,16 @@
+{
+	id: "16356F6E263E551D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "cobblemon:poke_ball" }
+		{ count: 2, item: "cobblemon:citrine_ball" }
+		{ count: 2, item: "cobblemon:verdant_ball" }
+		{ count: 2, item: "cobblemon:azure_ball" }
+		{ count: 2, item: "cobblemon:roseate_ball" }
+		{ count: 2, item: "cobblemon:slate_ball" }
+		{ count: 2, item: "cobblemon:premier_ball" }
+		{ item: "cobblemon:cherish_ball", weight: 0.071f }
+	]
+	title: "Pokéballs (Standard)"
+}

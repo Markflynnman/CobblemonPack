@@ -1,0 +1,13 @@
+name = "Easy Piglins"
+filename = "easy_piglins-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/l6n94pax/versions/O7zXIIWN/easy_piglins-1.20.1-1.0.1.jar"
+hash-format = "sha1"
+hash = "0fecf2d536f0473f6592748db8a35b4be2b92dcc"
+
+[update]
+[update.modrinth]
+mod-id = "l6n94pax"
+version = "O7zXIIWN"
