@@ -5,6 +5,10 @@ file = "LICENSE"
 hash = "e74b78df7003a6d0a047b3e7383b1f9ca330299a765547ce1abb7f3c658ac159"
 
 [[files]]
+file = "config/Advancedperipherals/world.toml"
+hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "4bfa87617166494def21a996b9b0bc15d65bfa9357dc22c4ed213871f8a96fee"
 
@@ -141,6 +145,10 @@ file = "config/ftbquests/quests/reward_tables/cobblemon.snbt"
 hash = "9887f8623ba1adb0a7149497ab65ef99b4ceed67597c4c74738838aa8a24464a"
 
 [[files]]
+file = "config/integrateddynamics-common.toml"
+hash = "590d7a205d2c9a46e811666ce813fda35d92751e875c905e7893f4050f04c321"
+
+[[files]]
 file = "config/jade/hide-blocks.json"
 hash = "6f6658b4a600c154e8bceb74fbfd887c9cb159ae389b1c87d29bd90f21ce5b0a"
 
@@ -175,6 +183,10 @@ hash = "0c1749bebddffb5f8c44ec3f311dd70d10c061ffc8f4b1c1448e26605c68d672"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "b7e98a8e4cca35b1988fd9ea58e51b7689319905211f417872979265894f39cd"
+
+[[files]]
+file = "defaultconfigs/Advancedperipherals/world.toml"
+hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "defaultconfigs/sereneseasons-server.toml"
@@ -549,6 +561,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "3bfb89c4d79052b3052da2713e3250225851e362b8979f8534538c1fdec257f7"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-integrations.pw.toml"
+hash = "0b687331b6fb7c38d802f2d71e4b4edf61b0c6b064c56612041c3d03ed695f90"
 metafile = true
 
 [[files]]
@@ -962,13 +979,13 @@ hash = "8a182f9c57dca3a2691ae78c94d30c40be4d61f6e4006ba2037223a503bcb961"
 metafile = true
 
 [[files]]
-file = "mods/immersive-melodies.pw.toml"
-hash = "efa7f152645047ef83ee81d0319b27fa938b1de8fc3ff586510931257eb18cd3"
+file = "mods/immersive-paintings.pw.toml"
+hash = "3f8021342d54a239164712721bf5c0c424b47eb689fd573d68e44681904998c3"
 metafile = true
 
 [[files]]
-file = "mods/immersive-paintings.pw.toml"
-hash = "3f8021342d54a239164712721bf5c0c424b47eb689fd573d68e44681904998c3"
+file = "mods/initial-inventory.pw.toml"
+hash = "e0a305e0f7936fb598fa9c528000a57d57e13c5a7e94d91999eeaf0295120270"
 metafile = true
 
 [[files]]
@@ -1159,6 +1176,11 @@ metafile = true
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "d6b707c0673cde38765d81a99deb45f213e0f8ea1842784310bb5ab311fefe5e"
+metafile = true
+
+[[files]]
+file = "mods/mimi-mod.pw.toml"
+hash = "20c683d39af6cb152dbc205785121b02153976b2cf4eed1a8f1dd1e876de5a1f"
 metafile = true
 
 [[files]]
@@ -1442,6 +1464,11 @@ hash = "f17ebbc2e710b6f29c8d8a47eacbc6860141219a68fbcab5a807a40660b3c5e3"
 metafile = true
 
 [[files]]
+file = "mods/simple-hats.pw.toml"
+hash = "d250747a28c2b5e478792fc071bd4c603f06e0853af2cbe4d827124cc971ce83"
+metafile = true
+
+[[files]]
 file = "mods/simple-storage-network.pw.toml"
 hash = "63edf067c594089af4f367df3f5374beca34161364801839943607ab5a788dba"
 metafile = true
@@ -1464,6 +1491,11 @@ metafile = true
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "2e37cccb6374af23900719fb2b40e94c0c89b177d310f02468369eb565b1d3e2"
+metafile = true
+
+[[files]]
+file = "mods/snow-under-trees.pw.toml"
+hash = "2f95e711858be800702cbf41553db782fa5a3989179d26e288d0ca5ab433de6a"
 metafile = true
 
 [[files]]
@@ -1653,6 +1685,10 @@ hash = "7d2616ca33b4249906ab624008036230aa21870a518247d8f32aa4e3f89d6e71"
 [[files]]
 file = "scripts/LargeCrafting.zs"
 hash = "8d7c10af2c2115475a121f5f8092e58c16b94bbda5ae8d120f8d7cbbe8281d7a"
+
+[[files]]
+file = "scripts/StartingInventory.zs"
+hash = "3e795da9edfd90444bc892017ddef8b46c92a961e38b31c4731681cf1feacc4a"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
