@@ -479,11 +479,6 @@ hash = "d65a4366f3f7798b6373eafe58f4f3e0de8d77d9aee88175ee19934c737659a5"
 metafile = true
 
 [[files]]
-file = "mods/blockui.pw.toml"
-hash = "a64c0380be7af7d9841555f8ee83571a9ed873e5beeb4591987c337d4fce5474"
-metafile = true
-
-[[files]]
 file = "mods/blueflame.pw.toml"
 hash = "ae935b8c185bc5d8fb79c6ad4be557475d3f8eefe3338ff41336586ba485222f"
 metafile = true
@@ -1184,11 +1179,6 @@ hash = "20c683d39af6cb152dbc205785121b02153976b2cf4eed1a8f1dd1e876de5a1f"
 metafile = true
 
 [[files]]
-file = "mods/minecolonies.pw.toml"
-hash = "96be86d6d1c0aefe80468a05b3b8804c329db95a5dac2b9fb6e4015abc832036"
-metafile = true
-
-[[files]]
 file = "mods/mob-grinding-utils.pw.toml"
 hash = "8885a270b8065fd0477078f258b8d59fa07b3cc1a7cfb30ec3f298b380f4cefb"
 metafile = true
@@ -1221,11 +1211,6 @@ metafile = true
 [[files]]
 file = "mods/mrcrayfish-furniture-mod.pw.toml"
 hash = "3d3a8cd6517c5804bd1ce2e4e05197ef40d33ed04c26b448c3eba6ac2b25321b"
-metafile = true
-
-[[files]]
-file = "mods/multi-piston.pw.toml"
-hash = "7cb8fd3d40eddee4b2d5c44ccb089739e8a6ef9becef5f498a05a7ac8bba76f3"
 metafile = true
 
 [[files]]
@@ -1524,11 +1509,6 @@ hash = "c1dbc884b2136ab81b5e00d32508961fd7e2a4aaa36797c21d7c0abf39bc8ae2"
 metafile = true
 
 [[files]]
-file = "mods/structurize.pw.toml"
-hash = "36a5ddf5123588911dde27a4251c46be36360125c3ec94f9129ca6ac13ff24ef"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "fb0ec93bfbee412229b63a9154abc992ee7e274a84fe569e077f250e6c77abbd"
 metafile = true
@@ -1688,7 +1668,7 @@ hash = "8d7c10af2c2115475a121f5f8092e58c16b94bbda5ae8d120f8d7cbbe8281d7a"
 
 [[files]]
 file = "scripts/StartingInventory.zs"
-hash = "3e795da9edfd90444bc892017ddef8b46c92a961e38b31c4731681cf1feacc4a"
+hash = "06b3b2d66dec90c831e00b39abe6397f1e0626d7ef178f575898825ae7877f34"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
