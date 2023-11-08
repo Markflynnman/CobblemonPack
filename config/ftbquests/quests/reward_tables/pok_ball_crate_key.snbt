@@ -1,0 +1,40 @@
+{
+	id: "52CBAD25959FDDF8"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:tripwire_hook"
+				tag: {
+					CrazyCrates-Crate: "PokéBallCrate"
+					Enchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 1s
+					}]
+					HideFlags: 1
+					display: {
+						Lore: [
+							"{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"A special Key\"}],\"text\":\"\"}"
+							"{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"For a special Crate.\"}],\"text\":\"\"}"
+						]
+						Name: "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Poké Ball Crate \"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"Key\"}],\"text\":\"\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:paper"
+				tag: {
+					display: {
+						Name: "{\"extra\":[{\"text\":\"Poké Ball Crate Key Voucher\"}],\"text\":\"\"}"
+					}
+				}
+			}
+		}
+	]
+	title: "Poké Ball Crate Key"
+}

@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "key_trade"
+	group: ""
+	id: "46F30C1B54FA40D1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		id: "1E6956185697325C"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "7976D82D73AA3564"
+			table_id: 5966052508318031352L
+			type: "choice"
+		}]
+		tasks: [{
+			consume_items: true
+			id: "244ED52B6107434C"
+			item: {
+				Count: 1b
+				id: "minecraft:tripwire_hook"
+				tag: {
+					CrazyCrates-Crate: "PokéBallCrate"
+					Enchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 1s
+					}]
+					HideFlags: 1
+					display: {
+						Lore: [
+							"{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"A special Key\"}],\"text\":\"\"}"
+							"{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"For a special Crate.\"}],\"text\":\"\"}"
+						]
+						Name: "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"Poké Ball Crate \"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"Key\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			match_nbt: true
+			only_from_crafting: false
+			type: "item"
+		}]
+		x: -4.5d
+		y: -1.5d
+	}]
+	title: "Key Trade"
+}

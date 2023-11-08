@@ -105,7 +105,10 @@
 			tasks: [{
 				action: "catch"
 				entity: "cobblemon_quests:choice_any"
+				form: ""
+				gender: ""
 				id: "7CBA237EB3CC2EFA"
+				pokemon_type: ""
 				shiny: true
 				title: "Catch A Shiny Pokémon!"
 				type: "cobblemon_tasks:cobblemon_task"
@@ -208,7 +211,10 @@
 			tasks: [{
 				action: "catch"
 				entity: "cobblemon_quests:choice_any"
+				form: ""
+				gender: ""
 				id: "3654BC11CE071FFA"
+				pokemon_type: ""
 				shiny: false
 				type: "cobblemon_tasks:cobblemon_task"
 				value: 10L

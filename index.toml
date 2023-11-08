@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "e74b78df7003a6d0a047b3e7383b1f9ca330299a765547ce1abb7f3c658ac159"
-
-[[files]]
 file = "config/Advancedperipherals/world.toml"
 hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
@@ -134,7 +130,11 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "f5ca179e37f8152d17871e766df3b8da4f35151dddd2045209f49a79dbfba9d6"
+hash = "7020d2f7b951257158a719ad8efe31a7a295323fb962e77e8d8b7a96200f8666"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/key_trade.snbt"
+hash = "09d553c7e5793f8c5595503023ab608e90d21d314897c7c6132b87a15a337e5e"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -143,6 +143,10 @@ hash = "4da9a893ddd5672427a9604000b1f708344512ea755dcc9d0c3fc2345c452dd1"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/cobblemon.snbt"
 hash = "9887f8623ba1adb0a7149497ab65ef99b4ceed67597c4c74738838aa8a24464a"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/pok_ball_crate_key.snbt"
+hash = "54a791e7e945f3f864647e96bb38f2a7871c807ff038e3059c580a59427760b1"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
@@ -571,6 +575,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "4fb86ab891eb380c00412b2c6b79373df9b95ce2804a90b4b27aa2e447d6f443"
+metafile = true
+
+[[files]]
+file = "mods/cobblepedia.pw.toml"
+hash = "e3c1d7b096563742d8b5c82bbae0713e6e7bb56f1a23dd068e0644aac938f369"
 metafile = true
 
 [[files]]
