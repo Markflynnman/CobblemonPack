@@ -193,8 +193,12 @@ file = "defaultconfigs/Advancedperipherals/world.toml"
 hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
+file = "defaultconfigs/physicsmod/physics_server_config.json"
+hash = "e6c1234596884339e56c93f3e52ae9b646c70bd245ca301775de4317a8f8928a"
+
+[[files]]
 file = "defaultconfigs/sereneseasons-server.toml"
-hash = "ce41ae297c8163b04049f4b98502af961b167967660c15bff254248f573bf107"
+hash = "48ab24c54466ee53e53e50d03725ffb37a09667762e87ced066b701cf047b0a3"
 
 [[files]]
 file = "emotes/A s c e n d.emotecraft"
@@ -1123,6 +1127,11 @@ hash = "ad8bc20a031c88ecaa4acdbe8e3537b90d2ac6c33fd62b8cf6013dbbe6e15112"
 metafile = true
 
 [[files]]
+file = "mods/load-my-resources.pw.toml"
+hash = "8499d4b662c34a17d9531785e6ef1f279dbbc84cb60b102f5fbbd306bbbfceae"
+metafile = true
+
+[[files]]
 file = "mods/login-protection.pw.toml"
 hash = "d6669ccd9ed05cf4859dee3fd2a46ef5aef12179e1f505c8dd92dc653033897a"
 metafile = true
@@ -1661,6 +1670,18 @@ metafile = true
 file = "resourcepacks/realistic-rain.pw.toml"
 hash = "edf6ceca356a3f36977b5fc8f4c4953c835bc38d3e206a32f95e41377013dbef"
 metafile = true
+
+[[files]]
+file = "resources/quest_images/textures/1.png"
+hash = "f68b4bb3aee36324d4a9d3920171eadf3e01c2af91384021ef02e4b13186c627"
+
+[[files]]
+file = "resources/quest_images/textures/2.png"
+hash = "2e94cce648bc9ee980beadddb0dc652b9c2a1421aa650a8a5938bbe1fc81d522"
+
+[[files]]
+file = "resources/quest_images/textures/3.png"
+hash = "121b3c6d44dcc5a42d3f2bf7c54496f5062a99db0e26ce8f94cc03c0a14c6b61"
 
 [[files]]
 file = "scripts/Cobblemon.zs"
