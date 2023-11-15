@@ -1689,7 +1689,7 @@ hash = "7d2616ca33b4249906ab624008036230aa21870a518247d8f32aa4e3f89d6e71"
 
 [[files]]
 file = "scripts/LargeCrafting.zs"
-hash = "0c1a8b69be1080bfb773445aa85fee19f788281499ba9dc858147e52f8fc1bac"
+hash = "ec021efa07cec53d2089e46f7584e84d0f826a03589392c90c634f6b2cc4fa58"
 
 [[files]]
 file = "scripts/StartingInventory.zs"
