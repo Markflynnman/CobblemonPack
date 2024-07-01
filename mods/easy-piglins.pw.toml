@@ -1,13 +1,13 @@
 name = "Easy Piglins"
-filename = "easy_piglins-1.20.1-1.0.1.jar"
+filename = "easy-piglins-forge-1.20.1-1.0.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/l6n94pax/versions/O7zXIIWN/easy_piglins-1.20.1-1.0.1.jar"
+url = "https://cdn.modrinth.com/data/l6n94pax/versions/GGw0SvX6/easy-piglins-forge-1.20.1-1.0.5.jar"
 hash-format = "sha1"
-hash = "0fecf2d536f0473f6592748db8a35b4be2b92dcc"
+hash = "6a1fb514576d9722e1dc8809141121c6dfce2b68"
 
 [update]
 [update.modrinth]
 mod-id = "l6n94pax"
-version = "O7zXIIWN"
+version = "GGw0SvX6"

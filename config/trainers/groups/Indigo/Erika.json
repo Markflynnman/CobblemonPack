@@ -1,0 +1,91 @@
+{
+  "team": [
+    {
+      "species": "cobblemon:victreebel",
+      "gender": "FEMALE",
+      "level": 29,
+      "nature": "cobblemon:mild",
+      "ability": "chlorophyll",
+      "moveset": [
+        "wrap",
+        "poisonpowder",
+        "sleeppowder",
+        "razorleaf"
+      ],
+      "ivs": {
+        "hp": 19,
+        "attack": 20,
+        "defence": 17,
+        "special_attack": 4,
+        "special_defence": 5,
+        "speed": 1
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:tangela",
+      "gender": "FEMALE",
+      "level": 24,
+      "nature": "cobblemon:lax",
+      "ability": "leafguard",
+      "moveset": [
+        "bind",
+        "constrict"
+      ],
+      "ivs": {
+        "hp": 4,
+        "attack": 21,
+        "defence": 30,
+        "special_attack": 23,
+        "special_defence": 29,
+        "speed": 11
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:vileplume",
+      "gender": "FEMALE",
+      "level": 29,
+      "nature": "cobblemon:brave",
+      "ability": "chlorophyll",
+      "moveset": [
+        "poisonpowder",
+        "megadrain",
+        "sleeppowder",
+        "petaldance"
+      ],
+      "ivs": {
+        "hp": 11,
+        "attack": 28,
+        "defence": 21,
+        "special_attack": 29,
+        "special_defence": 27,
+        "speed": 11
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    }
+  ],
+  "winCommand": "gymbattlewon Rainbow %player%",
+  "lossCommand": "",
+  "canOnlyBeatOnce": false,
+  "cooldownSeconds": 0,
+  "partyMaximumLevel": 100,
+  "defeatRequiredTrainers": [
+    "Lt. Surge"
+  ]
+}

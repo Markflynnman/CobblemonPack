@@ -1,13 +1,17 @@
 name = "Cobblemon Pack"
 author = "Markflynnman"
-version = "0.1.0"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7a70de9ae937eca2b49d848ed4f748963d11d8176cdc1179b4b1faeb3870a12d"
+hash = "1de7571ef7e7fda561b7544f62fd9f543a7a87e960d83e9b2bed3863f2386b7a"
 
 [versions]
-forge = "47.2.0"
 minecraft = "1.20.1"
+neoforge = "47.1.106"
+
+[options]
+acceptable-game-versions = []
+datapack-folder = "global_packs/required_data"

@@ -1,0 +1,13 @@
+name = "CobblemonTrainers"
+filename = "CobblemonTrainers-1.1.9+1.5.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1QV9wNCJ/versions/kQvzbmmL/CobblemonTrainers-1.1.9%2B1.5.2-forge.jar"
+hash-format = "sha1"
+hash = "2a1249d165ad124b69d8cbe53012a365dd593019"
+
+[update]
+[update.modrinth]
+mod-id = "1QV9wNCJ"
+version = "kQvzbmmL"

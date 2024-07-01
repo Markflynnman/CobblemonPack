@@ -1,0 +1,1981 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gym_battles"
+	group: ""
+	id: "2BC86D48A5B50D76"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D978DF4E1A65709"]
+			id: "06722EFB14B389FE"
+			tasks: [{
+				icon: "kubejs:cascade_badge"
+				id: "3A440E5A136F8756"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(cascadeBadge)"
+					}
+				}
+				title: "Cascade Badge"
+				type: "item"
+			}]
+			title: "Cascade Badge"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06722EFB14B389FE"]
+			id: "7AE3B6CD1C707FA5"
+			tasks: [{
+				icon: "kubejs:thunder_badge"
+				id: "110475D20F303A4B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(thunderBadge)"
+					}
+				}
+				title: "Thunder Badge"
+				type: "item"
+			}]
+			title: "Thunder Badge"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AE3B6CD1C707FA5"]
+			id: "690E4BD1E4B7FFD2"
+			tasks: [{
+				icon: "kubejs:rainbow_badge"
+				id: "75A897917803FEF2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(rainbowBadge)"
+					}
+				}
+				title: "Rainbow Badge"
+				type: "item"
+			}]
+			title: "Rainbow Badge"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["690E4BD1E4B7FFD2"]
+			id: "6F9C954168975329"
+			tasks: [{
+				icon: "kubejs:soul_badge"
+				id: "68345ECBF8FA7234"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(soulBadge)"
+					}
+				}
+				title: "Soul Badge"
+				type: "item"
+			}]
+			title: "Soul Badge"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F9C954168975329"]
+			id: "7542FBA70082664A"
+			tasks: [{
+				icon: "kubejs:marsh_badge"
+				id: "172E43A76688AEA1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(marshBadge)"
+					}
+				}
+				title: "Marsh Badge"
+				type: "item"
+			}]
+			title: "Marsh Badge"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7542FBA70082664A"]
+			id: "0B29356771DE424D"
+			tasks: [{
+				icon: "kubejs:volcano_badge"
+				id: "712AE96FF59ED902"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(volcanoBadge)"
+					}
+				}
+				title: "Volcano Badge"
+				type: "item"
+			}]
+			title: "Volcano Badge"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B29356771DE424D"]
+			id: "4DDA9CF3906FDE8B"
+			tasks: [{
+				icon: "kubejs:earth_badge"
+				id: "3900E8DC37737DC4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(earthBadge)"
+					}
+				}
+				title: "Earth Badge"
+				type: "item"
+			}]
+			title: "Earth Badge"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "2D978DF4E1A65709"
+			tasks: [{
+				icon: "kubejs:boulder_badge"
+				id: "2BD8B0F93BC48118"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "custom(boulderBadge)"
+					}
+				}
+				title: "Boulder Badge"
+				type: "item"
+			}]
+			title: "Boulder Badge"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			icon: "kubejs:zephyr_badge"
+			id: "50A80748C7B27639"
+			tasks: [{
+				icon: "kubejs:zephyr_badge"
+				id: "29936E51D6265A06"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Zephyr\"}"
+						}
+						"ftbfiltersystem:filter": "custom(zephyrBadge)"
+					}
+				}
+				title: "Zephyr Badge"
+				type: "item"
+			}]
+			title: "Zephyr Badge"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50A80748C7B27639"]
+			icon: "kubejs:hive_badge"
+			id: "428A4619AD94BCD2"
+			tasks: [{
+				icon: "kubejs:hive_badge"
+				id: "0A2AB61BE6E78A02"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Hive\"}"
+						}
+						"ftbfiltersystem:filter": "custom(hiveBadge)"
+					}
+				}
+				title: "Hive Badge"
+				type: "item"
+			}]
+			title: "Hive Badge"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["428A4619AD94BCD2"]
+			icon: "kubejs:plain_badge"
+			id: "49952C6FB2B4F8C1"
+			tasks: [{
+				icon: "kubejs:plain_badge"
+				id: "1BE0263EE9756746"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Plain\"}"
+						}
+						"ftbfiltersystem:filter": "custom(plainBadge)"
+					}
+				}
+				title: "Plain Badge"
+				type: "item"
+			}]
+			title: "Plain Badge"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49952C6FB2B4F8C1"]
+			icon: "kubejs:fog_badge"
+			id: "558C81A3D4F98774"
+			tasks: [{
+				icon: "kubejs:fog_badge"
+				id: "5099861EF6C47095"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Fog\"}"
+						}
+						"ftbfiltersystem:filter": "custom(fogBadge)"
+					}
+				}
+				title: "Fog Badge"
+				type: "item"
+			}]
+			title: "Fog Badge"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["558C81A3D4F98774"]
+			icon: "kubejs:storm_badge"
+			id: "7ABB037394DAD5B5"
+			tasks: [{
+				icon: "kubejs:storm_badge"
+				id: "158AD0B2BECCAA70"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Storm\"}"
+						}
+						"ftbfiltersystem:filter": "custom(stormBadge)"
+					}
+				}
+				title: "Storm Badge"
+				type: "item"
+			}]
+			title: "Storm Badge"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7ABB037394DAD5B5"]
+			icon: "kubejs:mineral_badge"
+			id: "59CA6E36AF72FCD9"
+			tasks: [{
+				icon: "kubejs:mineral_badge"
+				id: "202C4376582C8D46"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Mineral\"}"
+						}
+						"ftbfiltersystem:filter": "custom(mineralBadge)"
+					}
+				}
+				title: "Mineral Badge"
+				type: "item"
+			}]
+			title: "Mineral Badge"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59CA6E36AF72FCD9"]
+			icon: "kubejs:glacier_badge"
+			id: "2B96950F4829DEEC"
+			tasks: [{
+				icon: "kubejs:glacier_badge"
+				id: "6F8CE77C1A5A10EE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Glacier\"}"
+						}
+						"ftbfiltersystem:filter": "custom(glacierBadge)"
+					}
+				}
+				title: "Glacier Badge"
+				type: "item"
+			}]
+			title: "Glacier Badge"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B96950F4829DEEC"]
+			icon: "kubejs:rising_badge"
+			id: "0D0E732662361317"
+			tasks: [{
+				icon: "kubejs:rising_badge"
+				id: "058365B38D2E1890"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Rising\"}"
+						}
+						"ftbfiltersystem:filter": "custom(risingBadge)"
+					}
+				}
+				title: "Rising Badge"
+				type: "item"
+			}]
+			title: "Rising Badge"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: "kubejs:stone_badge"
+			id: "0D44D49C25A91F41"
+			tasks: [{
+				icon: "kubejs:stone_badge"
+				id: "00004D8B69DD87AE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Stone\"}"
+						}
+						"ftbfiltersystem:filter": "custom(stoneBadge)"
+					}
+				}
+				title: "Stone Badge"
+				type: "item"
+			}]
+			title: "Stone Badge"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			icon: "kubejs:coal_badge"
+			id: "6564FEF386E2477B"
+			tasks: [{
+				icon: "kubejs:coal_badge"
+				id: "1BFDA79660C041E4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Coal\"}"
+						}
+						"ftbfiltersystem:filter": "custom(coalBadge)"
+					}
+				}
+				title: "Coal Badge"
+				type: "item"
+			}]
+			title: "Coal Badge"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			icon: "kubejs:trio_badge"
+			id: "1DDC5348A0693E40"
+			tasks: [{
+				icon: "kubejs:trio_badge"
+				id: "39A9C6DC2A0C59D6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Trio\"}"
+						}
+						"ftbfiltersystem:filter": "custom(trioBadge)"
+					}
+				}
+				title: "Trio Badge"
+				type: "item"
+			}]
+			title: "Trio Badge"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			icon: "kubejs:bug_badge"
+			id: "4C64B877CE9DB13D"
+			tasks: [{
+				icon: "kubejs:bug_badge"
+				id: "17D9E3675E547C1E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Bug\"}"
+						}
+						"ftbfiltersystem:filter": "custom(bugBadge)"
+					}
+				}
+				title: "Bug Badge"
+				type: "item"
+			}]
+			title: "Bug Badge"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			icon: "kubejs:sas_grass_badge"
+			id: "4EF50C72D7995F4C"
+			tasks: [{
+				icon: "kubejs:sas_grass_badge"
+				id: "3BC2077F8AC2B54C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Grass\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasgrassBadge)"
+					}
+				}
+				title: "Grass Badge"
+				type: "item"
+			}]
+			title: "Grass Badge"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			icon: "kubejs:sv_bug_badge"
+			id: "707B1D29ACB4D661"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_bug_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "150A08197A3EE2AB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Bug\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svbugBadge)"
+					}
+				}
+				title: "Bug Badge"
+				type: "item"
+			}]
+			title: "Bug Badge"
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["707B1D29ACB4D661"]
+			icon: "kubejs:sv_grass_badge"
+			id: "69534F4E3E24A8D9"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_grass_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "6DB91BE02CE936EF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Grass\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svgrassBadge)"
+					}
+				}
+				title: "Grass Badge"
+				type: "item"
+			}]
+			title: "Grass Badge"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["69534F4E3E24A8D9"]
+			icon: "kubejs:sv_electric_badge"
+			id: "30EF4F2A04E36C6C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_electric_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "0259A1CA93ACE6A4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Electric\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svelectricBadge)"
+					}
+				}
+				title: "Electric Badge"
+				type: "item"
+			}]
+			title: "Electric Badge"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["30EF4F2A04E36C6C"]
+			icon: "kubejs:sv_water_badge"
+			id: "2FBFD2560D0A636F"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_water_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "06CADD0D88EA1AD0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Water\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svwaterBadge)"
+					}
+				}
+				title: "Water Badge"
+				type: "item"
+			}]
+			title: "Water Badge"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2FBFD2560D0A636F"]
+			icon: "kubejs:sv_normal_badge"
+			id: "38A376276BEE47AC"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_normal_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "3276214DBC7F2A91"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Normal\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svnormalBadge)"
+					}
+				}
+				title: "Normal Badge"
+				type: "item"
+			}]
+			title: "Normal Badge"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38A376276BEE47AC"]
+			icon: "kubejs:sv_ghost_badge"
+			id: "66D6F83E52DBF924"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_ghost_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "1263D9DC582A0B6C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Ghost\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svghostBadge)"
+					}
+				}
+				title: "Ghost Badge"
+				type: "item"
+			}]
+			title: "Ghost Badge"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D6F83E52DBF924"]
+			icon: "kubejs:sv_psychic_badge"
+			id: "5FFC20061C717CA5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_psychic_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "3C9EC1FD2E229140"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Psychic\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svpsychicBadge)"
+					}
+				}
+				title: "Psychic Badge"
+				type: "item"
+			}]
+			title: "Psychic Badge"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5FFC20061C717CA5"]
+			icon: "kubejs:sv_ice_badge"
+			id: "3F4FA2F545FEB8D9"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_ice_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "493F429D4A8FC80B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Ice\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sviceBadge)"
+					}
+				}
+				title: "Ice Badge"
+				type: "item"
+			}]
+			title: "Ice Badge"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3A9A0696C8EB1400"]
+			icon: "kubejs:rain_badge"
+			id: "3DA58EE52C7ED528"
+			tasks: [{
+				icon: "kubejs:rain_badge"
+				id: "605EBEF53802C506"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Rain\"}"
+						}
+						"ftbfiltersystem:filter": "custom(rainBadge)"
+					}
+				}
+				title: "Rain Badge"
+				type: "item"
+			}]
+			title: "Rain Badge"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["507C20EC0F641A59"]
+			icon: "kubejs:beacon_badge"
+			id: "50898F9373257B6B"
+			tasks: [{
+				icon: "kubejs:beacon_badge"
+				id: "7B799A948C40C5F8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Beacon\"}"
+						}
+						"ftbfiltersystem:filter": "custom(beaconBadge)"
+					}
+				}
+				title: "Beacon Badge"
+				type: "item"
+			}]
+			title: "Beacon Badge"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0648268E478A8DAF"]
+			icon: "kubejs:freeze_badge"
+			id: "3D9945A3E2BDB802"
+			tasks: [{
+				icon: "kubejs:freeze_badge"
+				id: "27D3613896C9E9BB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Freeze\"}"
+						}
+						"ftbfiltersystem:filter": "custom(freezeBadge)"
+					}
+				}
+				title: "Freeze Badge"
+				type: "item"
+			}]
+			title: "Freeze Badge"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0644831614D52004"]
+			icon: "kubejs:iceberg_badge"
+			id: "4A00AEDC151D41F5"
+			tasks: [{
+				icon: "kubejs:iceberg_badge"
+				id: "5EA01018CB12E815"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Iceberg\"}"
+						}
+						"ftbfiltersystem:filter": "custom(icebergBadge)"
+					}
+				}
+				title: "Iceberg Badge"
+				type: "item"
+			}]
+			title: "Iceberg Badge"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["642A3CB27CEA7A28"]
+			icon: "kubejs:sas_ice_badge"
+			id: "39335F060E9EBB37"
+			tasks: [{
+				icon: "kubejs:sas_ice_badge"
+				id: "2F1FA7E3AC77DAD2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Ice\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasiceBadge)"
+					}
+				}
+				title: "Ice Badge"
+				type: "item"
+			}]
+			title: "Ice Badge"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4041199CFFF3E178"]
+			icon: "kubejs:sas_rock_badge"
+			id: "642A3CB27CEA7A28"
+			tasks: [{
+				icon: "kubejs:sas_rock_badge"
+				id: "5DA8F2CF97D7555F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Rock\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasrockBadge)"
+					}
+				}
+				title: "Rock Badge"
+				type: "item"
+			}]
+			title: "Rock Badge"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["43618C1D8D40DE5F"]
+			icon: "kubejs:psychic_badge"
+			id: "0644831614D52004"
+			tasks: [{
+				icon: "kubejs:psychic_badge"
+				id: "444D989F627B0407"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Psychic\"}"
+						}
+						"ftbfiltersystem:filter": "custom(psychicBadge)"
+					}
+				}
+				title: "Psychic Badge"
+				type: "item"
+			}]
+			title: "Psychic Badge"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C814C8978D83160"]
+			icon: "kubejs:fairy_badge"
+			id: "43618C1D8D40DE5F"
+			tasks: [{
+				icon: "kubejs:fairy_badge"
+				id: "5451633C17FD524A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Fairy\"}"
+						}
+						"ftbfiltersystem:filter": "custom(fairyBadge)"
+					}
+				}
+				title: "Fairy Badge"
+				type: "item"
+			}]
+			title: "Fairy Badge"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C7BDDE5A3FC5835"]
+			icon: "kubejs:bolt_badge"
+			id: "4C2F8698957D037D"
+			tasks: [{
+				icon: "kubejs:bolt_badge"
+				id: "7DD67828C63C9FDA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Bolt\"}"
+						}
+						"ftbfiltersystem:filter": "custom(boltBadge)"
+					}
+				}
+				title: "Bolt Badge"
+				type: "item"
+			}]
+			title: "Bolt Badge"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15DF6204E0281558"]
+			icon: "kubejs:fen_badge"
+			id: "70033DC687A4E351"
+			tasks: [{
+				icon: "kubejs:fen_badge"
+				id: "384A578EDE1125DD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Fen\"}"
+						}
+						"ftbfiltersystem:filter": "custom(fenBadge)"
+					}
+				}
+				title: "Fen Badge"
+				type: "item"
+			}]
+			title: "Fen Badge"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39E858E713C067C7"]
+			icon: "kubejs:dynamo_badge"
+			id: "22A396612204674E"
+			tasks: [{
+				icon: "kubejs:dynamo_badge"
+				id: "11342CD21B099E16"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Dynamo\"}"
+						}
+						"ftbfiltersystem:filter": "custom(dynamoBadge)"
+					}
+				}
+				title: "Dynamo Badge"
+				type: "item"
+			}]
+			title: "Dynamo Badge"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C7F2934747867F2"]
+			icon: "kubejs:cobble_badge"
+			id: "15DF6204E0281558"
+			tasks: [{
+				icon: "kubejs:cobble_badge"
+				id: "451B8F898024F337"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Cobble\"}"
+						}
+						"ftbfiltersystem:filter": "custom(cobbleBadge)"
+					}
+				}
+				title: "Cobble Badge"
+				type: "item"
+			}]
+			title: "Cobble Badge"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A84561B052A7B39"]
+			icon: "kubejs:toxic_badge"
+			id: "43287BCF7B99DCF9"
+			tasks: [{
+				icon: "kubejs:toxic_badge"
+				id: "15C20C1C0F5652A2"
+				item: "kubejs:toxic_badge"
+				title: "Toxic Badge"
+				type: "item"
+			}]
+			title: "Toxic Badge"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F06F382D738305A"]
+			icon: "kubejs:rumble_badge"
+			id: "6EC1D4D7A2E2672D"
+			tasks: [{
+				icon: "kubejs:rumble_badge"
+				id: "26BA4AC35F4F36C4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Rumble\"}"
+						}
+						"ftbfiltersystem:filter": "custom(rumbleBadge)"
+					}
+				}
+				title: "Rumble Badge"
+				type: "item"
+			}]
+			title: "Rumble Badge"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C6757981B328562"]
+			icon: "kubejs:sas_fire_badge"
+			id: "5AF6AE84A55C7391"
+			tasks: [{
+				icon: "kubejs:sas_fire_badge"
+				id: "1E0FF14534F8734A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Fire\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasfireBadge)"
+					}
+				}
+				title: "Fire badge"
+				type: "item"
+			}]
+			title: "Fire Badge"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4EF50C72D7995F4C"]
+			icon: "kubejs:sas_water_badge"
+			id: "5C6757981B328562"
+			tasks: [{
+				icon: "kubejs:sas_water_badge"
+				id: "7059F912B04AE7EA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Water\"}"
+						}
+						"ftbfiltersystem:filter": "custom(saswaterBadge)"
+					}
+				}
+				title: "Water Badge"
+				type: "item"
+			}]
+			title: "Water Badge"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C64B877CE9DB13D"]
+			icon: "kubejs:cliff_badge"
+			id: "5F06F382D738305A"
+			tasks: [{
+				icon: "kubejs:cliff_badge"
+				id: "066BEA605C8C1DB1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Cliff\"}"
+						}
+						"ftbfiltersystem:filter": "custom(cliffBadge)"
+					}
+				}
+				title: "Cliff Badge"
+				type: "item"
+			}]
+			title: "Cliff Badge"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1DDC5348A0693E40"]
+			icon: "kubejs:basic_badge"
+			id: "2A84561B052A7B39"
+			tasks: [{
+				icon: "kubejs:basic_badge"
+				id: "66B96AA4B341011E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Basic\"}"
+						}
+						"ftbfiltersystem:filter": "custom(basicBadge)"
+					}
+				}
+				title: "Basic Badge"
+				type: "item"
+			}]
+			title: "Basic Badge"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6564FEF386E2477B"]
+			icon: "kubejs:forest_badge"
+			id: "5C7F2934747867F2"
+			tasks: [{
+				icon: "kubejs:forest_badge"
+				id: "710DD2BEE0497C7D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Forest\"}"
+						}
+						"ftbfiltersystem:filter": "custom(forestBadge)"
+					}
+				}
+				title: "Forest badge"
+				type: "item"
+			}]
+			title: "Forest Badge"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D44D49C25A91F41"]
+			icon: "kubejs:knuckle_badge"
+			id: "39E858E713C067C7"
+			tasks: [{
+				icon: "kubejs:knuckle_badge"
+				id: "0E5B327ACA44ADB2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Knuckle\"}"
+						}
+						"ftbfiltersystem:filter": "custom(knuckleBadge)"
+					}
+				}
+				title: "Knuckle Badge"
+				type: "item"
+			}]
+			title: "Knuckle Badge"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22A396612204674E"]
+			icon: "kubejs:heat_badge"
+			id: "3ABAEAE0C865D71F"
+			tasks: [{
+				icon: "kubejs:heat_badge"
+				id: "545C5A8B4845E060"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Heat\"}"
+						}
+						"ftbfiltersystem:filter": "custom(heatBadge)"
+					}
+				}
+				title: "Heat Badge"
+				type: "item"
+			}]
+			title: "Heat Badge"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3ABAEAE0C865D71F"]
+			icon: "kubejs:balance_badge"
+			id: "1DE9C4914DF005CA"
+			tasks: [{
+				icon: "kubejs:balance_badge"
+				id: "18F05768BDDDB279"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Balance\"}"
+						}
+						"ftbfiltersystem:filter": "custom(balanceBadge)"
+					}
+				}
+				title: "Balance Badge"
+				type: "item"
+			}]
+			title: "Balance Badge"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DE9C4914DF005CA"]
+			icon: "kubejs:feather_badge"
+			id: "71A0BA343BDB83B4"
+			tasks: [{
+				icon: "kubejs:feather_badge"
+				id: "6904BE07D6803FD8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Feather\"}"
+						}
+						"ftbfiltersystem:filter": "custom(featherBadge)"
+					}
+				}
+				title: "Feather Badge"
+				type: "item"
+			}]
+			title: "Feather Badge"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71A0BA343BDB83B4"]
+			icon: "kubejs:mind_badge"
+			id: "3A9A0696C8EB1400"
+			tasks: [{
+				icon: "kubejs:mind_badge"
+				id: "590148E35740086F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Mind\"}"
+						}
+						"ftbfiltersystem:filter": "custom(mindBadge)"
+					}
+				}
+				title: "Mind Badge"
+				type: "item"
+			}]
+			title: "Mind Badge"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40836F769695DA5A"]
+			icon: "kubejs:icicle_badge"
+			id: "507C20EC0F641A59"
+			tasks: [{
+				icon: "kubejs:icicle_badge"
+				id: "4E4E89B42BABC840"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Icicle\"}"
+						}
+						"ftbfiltersystem:filter": "custom(icicleBadge)"
+					}
+				}
+				title: "Icicle Badge"
+				type: "item"
+			}]
+			title: "Icicle Badge"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16EB02535C692F54"]
+			icon: "kubejs:mine_badge"
+			id: "40836F769695DA5A"
+			tasks: [{
+				icon: "kubejs:mine_badge"
+				id: "1FF1754CA0584876"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Mine\"}"
+						}
+						"ftbfiltersystem:filter": "custom(mineBadge)"
+					}
+				}
+				title: "Mine Badge"
+				type: "item"
+			}]
+			title: "Mine Badge"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70033DC687A4E351"]
+			icon: "kubejs:relic_badge"
+			id: "16EB02535C692F54"
+			tasks: [{
+				icon: "kubejs:relic_badge"
+				id: "384FF2A5B29A0BBC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Relic\"}"
+						}
+						"ftbfiltersystem:filter": "custom(relicBadge)"
+					}
+				}
+				title: "Relic Badge"
+				type: "item"
+			}]
+			title: "Relic Badge"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C2F8698957D037D"]
+			icon: "kubejs:quake_badge"
+			id: "51BD01A147521513"
+			tasks: [{
+				icon: "kubejs:quake_badge"
+				id: "105961DC53174B53"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Quake\"}"
+						}
+						"ftbfiltersystem:filter": "custom(quakeBadge)"
+					}
+				}
+				title: "Quake Badge"
+				type: "item"
+			}]
+			title: "Quake Badge"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51BD01A147521513"]
+			icon: "kubejs:jet_badge"
+			id: "0648268E478A8DAF"
+			tasks: [{
+				icon: "kubejs:jet_badge"
+				id: "448FFDA39CBC5490"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Jet\"}"
+						}
+						"ftbfiltersystem:filter": "custom(jetBadge)"
+					}
+				}
+				title: "Jet Badge"
+				type: "item"
+			}]
+			title: "Jet Badge"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43287BCF7B99DCF9"]
+			icon: "kubejs:insect_badge"
+			id: "0C7BDDE5A3FC5835"
+			tasks: [{
+				icon: "kubejs:insect_badge"
+				id: "651304C742E6DFE5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Insect\"}"
+						}
+						"ftbfiltersystem:filter": "custom(insectBadge)"
+					}
+				}
+				title: "Insect Badge"
+				type: "item"
+			}]
+			title: "Insect Badge"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EC1D4D7A2E2672D"]
+			icon: "kubejs:plant_badge"
+			id: "518D5F54FAC79E3D"
+			tasks: [{
+				icon: "kubejs:plant_badge"
+				id: "1B763225CC553BBD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Plant\"}"
+						}
+						"ftbfiltersystem:filter": "custom(plantBadge)"
+					}
+				}
+				title: "Plant Badge"
+				type: "item"
+			}]
+			title: "Plant Badge"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["518D5F54FAC79E3D"]
+			icon: "kubejs:voltage_badge"
+			id: "7C814C8978D83160"
+			tasks: [{
+				icon: "kubejs:voltage_badge"
+				id: "7DBE772CE36E49D6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Voltage\"}"
+						}
+						"ftbfiltersystem:filter": "custom(voltageBadge)"
+					}
+				}
+				title: "Voltage Badge"
+				type: "item"
+			}]
+			title: "Voltage Badge"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AF6AE84A55C7391"]
+			icon: "kubejs:sas_fighting_badge"
+			id: "1126BC6097C9A4AD"
+			tasks: [{
+				icon: "kubejs:sas_fighting_badge"
+				id: "2A02D471F4DD0698"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Fighting\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasfightingBadge)"
+					}
+				}
+				title: "Fighting Badge"
+				type: "item"
+			}]
+			title: "Fighting Badge"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1126BC6097C9A4AD"]
+			icon: "kubejs:sas_ghost_badge"
+			id: "3EDEAD03C1DECF27"
+			tasks: [{
+				icon: "kubejs:sas_ghost_badge"
+				id: "472C5ED130254D57"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Ghost\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasghostBadge)"
+					}
+				}
+				title: "Ghost Badge"
+				type: "item"
+			}]
+			title: "Ghost Badge"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EDEAD03C1DECF27"]
+			icon: "kubejs:sas_fairy_badge"
+			id: "4041199CFFF3E178"
+			tasks: [{
+				icon: "kubejs:sas_fairy_badge"
+				id: "138ACDE517B4E7A4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Fairy\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasfairyBadge)"
+					}
+				}
+				title: "Fairy Badge"
+				type: "item"
+			}]
+			title: "Fairy Badge"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			icon: "kubejs:sv_dark_badge"
+			id: "2B091B1BC8CE94E0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_dark_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "21DF8AA3585CAE5D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Dark\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svdarkBadge)"
+					}
+				}
+				title: "Dark Badge"
+				type: "item"
+			}]
+			title: "Dark Badge"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			icon: "kubejs:sv_fire_badge"
+			id: "1CE0C309FF0B2225"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_fire_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "0561E5D13A51350F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Fire\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svfireBadge)"
+					}
+				}
+				title: "Fire Badge"
+				type: "item"
+			}]
+			title: "Fire Badge"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			icon: "kubejs:sv_poison_badge"
+			id: "4F71882450D2B7FF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_poison_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "0260BAFA76DBB87B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Poison\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svpoisonBadge)"
+					}
+				}
+				title: "Poison Badge"
+				type: "item"
+			}]
+			title: "Poison Badge"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			icon: "kubejs:sv_fairy_badge"
+			id: "2D650F2725218FA5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_fairy_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "4185EB2AFEA134F6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Fairy\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svfairyBadge)"
+					}
+				}
+				title: "Fairy Badge"
+				type: "item"
+			}]
+			title: "Fairy Badge"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			icon: "kubejs:sv_fighting_badge"
+			id: "5323691113AE49A7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_fighting_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "7A9D09655E04CDE4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Fighting\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svfightingBadge)"
+					}
+				}
+				title: "Fighting Badge"
+				type: "item"
+			}]
+			title: "Fighting Badge"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			icon: "kubejs:sv_dragon_badge"
+			id: "5495B2E3A81E9EC3"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_dragon_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "03AC29E72A7B1686"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Dragon\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svdragonBadge)"
+					}
+				}
+				title: "Dragon Badge"
+				type: "item"
+			}]
+			title: "Dragon Badge"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			icon: "kubejs:sv_ground_badge"
+			id: "0B28B1D4186E50A8"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_ground_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "24F069E0724D4A47"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Ground\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svgroundBadge)"
+					}
+				}
+				title: "Ground Badge"
+				type: "item"
+			}]
+			title: "Ground Badge"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			icon: "kubejs:sv_steel_badge"
+			id: "745F66E9F9A82C6D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_steel_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "13591490C63D29BB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Steel\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svsteelBadge)"
+					}
+				}
+				title: "Steel Badge"
+				type: "item"
+			}]
+			title: "Steel Badge"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			icon: "kubejs:sv_flying_badge"
+			id: "5F23DC189F5E41A4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_flying_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "3301F80C3487CFA0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Flying\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svflyingBadge)"
+					}
+				}
+				title: "Flying Badge"
+				type: "item"
+			}]
+			title: "Flying Badge"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			icon: "kubejs:sv_rock_badge"
+			id: "067B01F72C9F5797"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kubejs:sv_rock_badge"
+					tag: {
+						Owner: "Markflynnman"
+					}
+				}
+				id: "5D533DA773800F92"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SV_Rock\"}"
+						}
+						"ftbfiltersystem:filter": "custom(svrockBadge)"
+					}
+				}
+				title: "Rock Badge"
+				type: "item"
+			}]
+			title: "Rock Badge"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F4FA2F545FEB8D9"]
+			id: "6B292EEB06075DD8"
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56003FA8042885D6"]
+			id: "6D3DD7F056FAF359"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A00AEDC151D41F5"]
+			id: "2F829A7E4695FCBA"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06E6CEA066482026"]
+			id: "6B9ECC4A517072B7"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50898F9373257B6B"]
+			id: "5FEEC167A6005821"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DA58EE52C7ED528"]
+			id: "51FC41993A505685"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D0E732662361317"]
+			id: "46F59E8D708BD87F"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DDA9CF3906FDE8B"]
+			id: "0AFEFF3150646D95"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D9945A3E2BDB802"]
+			icon: "kubejs:legend_badge"
+			id: "745FAB4AF6BEA325"
+			tasks: [{
+				icon: "kubejs:legend_badge"
+				id: "606A11FC97EFD93E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Legend\"}"
+						}
+						"ftbfiltersystem:filter": "custom(legendBadge)"
+					}
+				}
+				title: "Legend Badge"
+				type: "item"
+			}]
+			title: "Legend Badge"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["745FAB4AF6BEA325"]
+			icon: "kubejs:wave_badge"
+			id: "06E6CEA066482026"
+			tasks: [{
+				icon: "kubejs:wave_badge"
+				id: "51F81502F3711C0A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Wave\"}"
+						}
+						"ftbfiltersystem:filter": "custom(waveBadge)"
+					}
+				}
+				title: "Wave Badge"
+				type: "item"
+			}]
+			title: "Wave Badge"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39335F060E9EBB37"]
+			icon: "kubejs:sas_dark_badge"
+			id: "66924CE7BC786D42"
+			tasks: [{
+				icon: "kubejs:sas_dark_badge"
+				id: "611929CDCEEFC719"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Dark\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasdarkBadge)"
+					}
+				}
+				title: "Dark Badge"
+				type: "item"
+			}]
+			title: "Dark Badge"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66924CE7BC786D42"]
+			icon: "kubejs:sas_dragon_badge"
+			id: "56003FA8042885D6"
+			tasks: [{
+				icon: "kubejs:sas_dragon_badge"
+				id: "2911D44314A3DA87"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						display: {
+							Name: "{\"text\":\"SAS_Dragon\"}"
+						}
+						"ftbfiltersystem:filter": "custom(sasdragonBadge)"
+					}
+				}
+				title: "Dragon Badge"
+				type: "item"
+			}]
+			title: "Dragon Badge"
+			x: 5.5d
+			y: 6.0d
+		}
+	]
+	title: "Gym Battles"
+}

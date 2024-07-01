@@ -1,0 +1,120 @@
+{
+  "team": [
+    {
+      "species": "cobblemon:koffing",
+      "gender": "FEMALE",
+      "level": 37,
+      "nature": "cobblemon:quiet",
+      "ability": "levitate",
+      "moveset": [
+        "tackle",
+        "smog",
+        "sludge",
+        "smokescreen"
+      ],
+      "ivs": {
+        "hp": 26,
+        "attack": 2,
+        "defence": 21,
+        "special_attack": 17,
+        "special_defence": 1,
+        "speed": 13
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:muk",
+      "gender": "MALE",
+      "level": 39,
+      "nature": "cobblemon:naive",
+      "ability": "stench",
+      "moveset": [
+        "disable",
+        "poisongas",
+        "minimize",
+        "sludge"
+      ],
+      "ivs": {
+        "hp": 31,
+        "attack": 28,
+        "defence": 22,
+        "special_attack": 9,
+        "special_defence": 14,
+        "speed": 20
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    },
+    {
+      "species": "cobblemon:koffing",
+      "gender": "FEMALE",
+      "level": 37,
+      "nature": "cobblemon:lonely",
+      "ability": "neutralizinggas",
+      "moveset": [
+        "tackle",
+        "smog",
+        "sludge",
+        "smokescreen"
+      ],
+      "ivs": {
+        "hp": 25,
+        "attack": 29,
+        "defence": 9,
+        "special_attack": 23,
+        "special_defence": 12,
+        "speed": 2
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:weezing",
+      "gender": "MALE",
+      "level": 43,
+      "nature": "cobblemon:serious",
+      "ability": "neutralizinggas",
+      "moveset": [
+        "smog",
+        "sludge",
+        "toxic",
+        "selfdestruct"
+      ],
+      "ivs": {
+        "hp": 30,
+        "attack": 19,
+        "defence": 11,
+        "special_attack": 16,
+        "special_defence": 27,
+        "speed": 17
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    }
+  ],
+  "winCommand": "gymbattlewon Soul %player%",
+  "lossCommand": "",
+  "canOnlyBeatOnce": false,
+  "cooldownSeconds": 0,
+  "partyMaximumLevel": 100,
+  "defeatRequiredTrainers": [
+    "Erika"
+  ]
+}

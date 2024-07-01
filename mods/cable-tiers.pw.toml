@@ -1,13 +1,13 @@
 name = "Cable Tiers"
-filename = "cabletiers-1.20.1-1.11.jar"
+filename = "cabletiers-1.20.1-1.2.2.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/UsLNxQgK/versions/i99hKWi2/cabletiers-1.20.1-1.2.2.jar"
 hash-format = "sha1"
-hash = "7eadcae26576d61524050039cd4406f4220f5462"
-mode = "metadata:curseforge"
+hash = "83da147d635e3adbbcd59a24e4c4de9bbdf9830e"
 
 [update]
-[update.curseforge]
-file-id = 4814710
-project-id = 454382
+[update.modrinth]
+mod-id = "UsLNxQgK"
+version = "i99hKWi2"

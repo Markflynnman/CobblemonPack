@@ -1,0 +1,120 @@
+{
+  "team": [
+    {
+      "species": "cobblemon:growlithe",
+      "gender": "MALE",
+      "level": 42,
+      "nature": "cobblemon:brave",
+      "ability": "flashfire",
+      "moveset": [
+        "ember",
+        "leer",
+        "takedown",
+        "agility"
+      ],
+      "ivs": {
+        "hp": 5,
+        "attack": 3,
+        "defence": 12,
+        "special_attack": 5,
+        "special_defence": 25,
+        "speed": 1
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    },
+    {
+      "species": "cobblemon:ponyta",
+      "gender": "FEMALE",
+      "level": 40,
+      "nature": "cobblemon:gentle",
+      "ability": "flashfire",
+      "moveset": [
+        "tailwhip",
+        "stomp",
+        "growl",
+        "firespin"
+      ],
+      "ivs": {
+        "hp": 4,
+        "attack": 8,
+        "defence": 12,
+        "special_attack": 18,
+        "special_defence": 6,
+        "speed": 28
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:rapidash",
+      "gender": "FEMALE",
+      "level": 42,
+      "nature": "cobblemon:gentle",
+      "ability": "runaway",
+      "moveset": [
+        "tailwhip",
+        "stomp",
+        "growl",
+        "firespin"
+      ],
+      "ivs": {
+        "hp": 26,
+        "attack": 4,
+        "defence": 1,
+        "special_attack": 25,
+        "special_defence": 9,
+        "speed": 14
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:arcanine",
+      "gender": "MALE",
+      "level": 47,
+      "nature": "cobblemon:sassy",
+      "ability": "intimidate",
+      "moveset": [
+        "roar",
+        "ember",
+        "takedown",
+        "fireblast"
+      ],
+      "ivs": {
+        "hp": 14,
+        "attack": 27,
+        "defence": 16,
+        "special_attack": 1,
+        "special_defence": 13,
+        "speed": 1
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    }
+  ],
+  "winCommand": "gymbattlewon Volcano %player%",
+  "lossCommand": "",
+  "canOnlyBeatOnce": false,
+  "cooldownSeconds": 0,
+  "partyMaximumLevel": 100,
+  "defeatRequiredTrainers": [
+    "Sabrina"
+  ]
+}

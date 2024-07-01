@@ -1,9 +1,8 @@
 {
-  "lastSavedVersion": "1.4.0",
+  "lastSavedVersion": "1.5.2",
   "maxPokemonLevel": 100,
   "maxPokemonFriendship": 255,
   "announceDropItems": true,
-  "defaultDropItemMethod": "ON_ENTITY",
   "ambientPokemonCryTicks": 1080,
   "defaultBoxCount": 30,
   "pokemonSaveIntervalSeconds": 30,
@@ -17,7 +16,6 @@
   "minimumDistanceBetweenEntities": 8.0,
   "maxNearbyBlocksHorizontalRange": 4,
   "maxNearbyBlocksVerticalRange": 2,
-  "maxHorizontalSpace": 6,
   "maxVerticalSpace": 8,
   "worldSliceDiameter": 8,
   "worldSliceHeight": 16,
@@ -32,6 +30,7 @@
   "allowExperienceFromPvP": true,
   "experienceShareMultiplier": 0.5,
   "luckyEggMultiplier": 1.5,
+  "allowSpectating": true,
   "experienceMultiplier": 2.0,
   "pokemonPerChunk": 1.0,
   "passiveStatuses": {
@@ -61,9 +60,11 @@
   "energyRootChance": 0.25,
   "maxDynamaxLevel": 10,
   "teraTypeRate": 20.0,
-  "consumeHeldItems": true,
   "defaultPasturedPokemonLimit": 16,
   "pastureBlockUpdateTicks": 40,
   "pastureMaxWanderDistance": 64,
-  "pastureMaxPerChunk": 4.0
+  "pastureMaxPerChunk": 4.0,
+  "maxInsertedFossilItems": 2,
+  "walkingInBattleAnimations": false,
+  "enableDebugKeys": false
 }

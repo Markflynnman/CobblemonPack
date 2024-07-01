@@ -1,0 +1,13 @@
+name = "Cobblemon Pokedex (Cobbledex)"
+filename = "cobbledex-1.20.1-forge-1.0.24.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fKNwbN70/versions/KxGnkDYl/cobbledex-1.20.1-forge-1.0.24.jar"
+hash-format = "sha1"
+hash = "981a0afdfa1516bf8aa424b729c82ccb7c3951d4"
+
+[update]
+[update.modrinth]
+mod-id = "fKNwbN70"
+version = "KxGnkDYl"

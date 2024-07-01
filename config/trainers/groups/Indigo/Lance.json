@@ -1,0 +1,147 @@
+{
+  "team": [
+    {
+      "species": "cobblemon:gyarados",
+      "gender": "MALE",
+      "level": 58,
+      "nature": "cobblemon:jolly",
+      "ability": "intimidate",
+      "moveset": [
+        "hydropump",
+        "dragonrage",
+        "leer",
+        "hyperbeam"
+      ],
+      "ivs": {
+        "hp": 1,
+        "attack": 29,
+        "defence": 26,
+        "special_attack": 3,
+        "special_defence": 28,
+        "speed": 8
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    },
+    {
+      "species": "cobblemon:dragonair",
+      "gender": "FEMALE",
+      "level": 56,
+      "nature": "cobblemon:modest",
+      "ability": "shedskin",
+      "moveset": [
+        "agility",
+        "slam",
+        "dragonrage",
+        "hyperbeam"
+      ],
+      "ivs": {
+        "hp": 25,
+        "attack": 13,
+        "defence": 16,
+        "special_attack": 17,
+        "special_defence": 8,
+        "speed": 2
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:dragonair",
+      "gender": "MALE",
+      "level": 56,
+      "nature": "cobblemon:sassy",
+      "ability": "shedskin",
+      "moveset": [
+        "agility",
+        "slam",
+        "dragonrage",
+        "hyperbeam"
+      ],
+      "ivs": {
+        "hp": 19,
+        "attack": 9,
+        "defence": 4,
+        "special_attack": 1,
+        "special_defence": 27,
+        "speed": 8
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    },
+    {
+      "species": "cobblemon:aerodactyl",
+      "gender": "MALE",
+      "level": 60,
+      "nature": "cobblemon:timid",
+      "ability": "rockhead",
+      "moveset": [
+        "supersonic",
+        "takedown",
+        "bite",
+        "hyperbeam"
+      ],
+      "ivs": {
+        "hp": 13,
+        "attack": 19,
+        "defence": 24,
+        "special_attack": 17,
+        "special_defence": 12,
+        "speed": 24
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    },
+    {
+      "species": "cobblemon:dragonite",
+      "gender": "MALE",
+      "level": 62,
+      "nature": "cobblemon:gentle",
+      "ability": "innerfocus",
+      "moveset": [
+        "agility",
+        "slam",
+        "barrier",
+        "hyperbeam"
+      ],
+      "ivs": {
+        "hp": 22,
+        "attack": 23,
+        "defence": 14,
+        "special_attack": 21,
+        "special_defence": 22,
+        "speed": 26
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "male"
+      ]
+    }
+  ],
+  "winCommand": "",
+  "lossCommand": "",
+  "canOnlyBeatOnce": false,
+  "cooldownSeconds": 0,
+  "partyMaximumLevel": 100,
+  "defeatRequiredTrainers": [
+    "Agatha"
+  ]
+}

@@ -1,13 +1,13 @@
 name = "Showcase Item"
-filename = "showcaseitem-1.20.1-1.0.jar"
+filename = "showcaseitem-1.20.1-1.2.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/P5Jjjezm/versions/Q5HI3IfP/showcaseitem-1.20.1-1.2.jar"
 hash-format = "sha1"
-hash = "0f1b05c7e6c2d908666e5290da7f2cdec4cc582b"
-mode = "metadata:curseforge"
+hash = "282e08fc46b7e4bab61a8651b5fcc1ee1befddd9"
 
 [update]
-[update.curseforge]
-file-id = 4760562
-project-id = 627196
+[update.modrinth]
+mod-id = "P5Jjjezm"
+version = "Q5HI3IfP"

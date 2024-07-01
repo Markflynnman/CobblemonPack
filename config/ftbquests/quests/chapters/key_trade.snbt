@@ -19,7 +19,7 @@
 			consume_items: true
 			id: "244ED52B6107434C"
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:tripwire_hook"
 				tag: {
 					CrazyCrates-Crate: "PokéBallCrate"

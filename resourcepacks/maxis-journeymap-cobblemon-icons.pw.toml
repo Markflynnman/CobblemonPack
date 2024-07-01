@@ -1,0 +1,13 @@
+name = "Maxi's JourneyMap Cobblemon Minimap Icons"
+filename = "Maxi's-JM+CM_Shuffle.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ENCwFpBk/versions/CpN9bKu5/Maxi%27s-JM%2BCM_Shuffle.zip"
+hash-format = "sha1"
+hash = "91354cc78ab7ae299a1222fa4108e079aa6c5b10"
+
+[update]
+[update.modrinth]
+mod-id = "ENCwFpBk"
+version = "CpN9bKu5"

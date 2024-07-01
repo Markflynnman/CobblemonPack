@@ -47,7 +47,7 @@
 		#Resource Location based name of the sound file to play when resources complete reloading.
 		#
 		#Look at the "name" config for more details.
-		nameResourcesReload = "entity.experience_orb.pickup"
+		nameResourcesReload = "cobblemon:healing_machine.active"
 		#Volume of the sound (when resources complete reloading)
 		#Range: 0.0 ~ 10.0
 		volumeResourcesReload = 0.25

@@ -1,13 +1,14 @@
 name = "Cobblemon Quests"
-filename = "cobblemon_quests-[1.20.1]-forge-1.1.5.jar"
+filename = "cobblemon_quests-[1.20.1]-forge-1.1.9.jar"
 side = "both"
+pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/kZgRPg5R/versions/lfA9zWLs/cobblemon_quests-%5B1.20.1%5D-forge-1.1.5.jar"
+url = "https://cdn.modrinth.com/data/kZgRPg5R/versions/xoPTXqzz/cobblemon_quests-%5B1.20.1%5D-forge-1.1.9.jar"
 hash-format = "sha1"
-hash = "32be0849092bd2bd604bdc6863b53dfa17c214da"
+hash = "8ef437052cc90438c64d2a58f874811396af8e0f"
 
 [update]
 [update.modrinth]
 mod-id = "kZgRPg5R"
-version = "lfA9zWLs"
+version = "xoPTXqzz"

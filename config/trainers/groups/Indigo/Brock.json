@@ -1,0 +1,60 @@
+{
+  "team": [
+    {
+      "species": "cobblemon:geodude",
+      "gender": "MALE",
+      "level": 12,
+      "nature": "cobblemon:lax",
+      "ability": "sturdy",
+      "moveset": [
+        "tackle",
+        "defensecurl"
+      ],
+      "ivs": {
+        "hp": 12,
+        "attack": 29,
+        "defence": 29,
+        "special_attack": 21,
+        "special_defence": 25
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    },
+    {
+      "species": "cobblemon:onix",
+      "gender": "MALE",
+      "level": 14,
+      "nature": "cobblemon:quiet",
+      "ability": "sturdy",
+      "moveset": [
+        "tackle",
+        "screech",
+        "bide",
+        "bind"
+      ],
+      "ivs": {
+        "hp": 5,
+        "attack": 22,
+        "defence": 26,
+        "special_defence": 10,
+        "speed": 7
+      },
+      "evs": {},
+      "shiny": false,
+      "heldItem": "minecraft:air",
+      "aspects": [
+        "female"
+      ]
+    }
+  ],
+  "winCommand": "gymbattlewon Boulder %player%",
+  "lossCommand": "",
+  "canOnlyBeatOnce": false,
+  "cooldownSeconds": 0,
+  "partyMaximumLevel": 100,
+  "defeatRequiredTrainers": []
+}

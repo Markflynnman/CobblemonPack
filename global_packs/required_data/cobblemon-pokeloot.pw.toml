@@ -1,0 +1,13 @@
+name = "PokeLoot [Cobblemon]"
+filename = "CobblemonPokeLoot 1.4.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KP2IZrd5/versions/Mx81Dt9Y/CobblemonPokeLoot%201.4.zip"
+hash-format = "sha1"
+hash = "4dc8f7ea441cd4c8ceb5fefb6a931aff4f3178b2"
+
+[update]
+[update.modrinth]
+mod-id = "KP2IZrd5"
+version = "Mx81Dt9Y"

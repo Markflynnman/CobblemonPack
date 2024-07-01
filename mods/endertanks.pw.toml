@@ -1,13 +1,13 @@
 name = "EnderTanks"
-filename = "endertanks-forge-1.20.1-1.1.jar"
+filename = "endertanks-forge-1.20.1-1.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zZwEA08D/versions/8LSP9S4k/endertanks-forge-1.20.1-1.1.jar"
+url = "https://cdn.modrinth.com/data/zZwEA08D/versions/sdb63xEF/endertanks-forge-1.20.1-1.3.jar"
 hash-format = "sha1"
-hash = "0ad6c2fe59d316b3468f25036112d9308ba2d165"
+hash = "79fabfb022f83e1eb23dc4aed7a5d8bdb39ab49d"
 
 [update]
 [update.modrinth]
 mod-id = "zZwEA08D"
-version = "8LSP9S4k"
+version = "sdb63xEF"

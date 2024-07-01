@@ -1,13 +1,13 @@
 name = "CraftTweaker"
-filename = "CraftTweaker-forge-1.20.1-14.0.17.jar"
+filename = "CraftTweaker-forge-1.20.1-14.0.40.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Xg35A4rS/versions/MuaXttG5/CraftTweaker-forge-1.20.1-14.0.17.jar"
+url = "https://cdn.modrinth.com/data/Xg35A4rS/versions/76pCM25G/CraftTweaker-forge-1.20.1-14.0.40.jar"
 hash-format = "sha1"
-hash = "8608f7c13338fb7e99bc40fa5c86ab6e14edb906"
+hash = "68aafc2d6488af990f51de45f62a4e9d9f311de3"
 
 [update]
 [update.modrinth]
 mod-id = "Xg35A4rS"
-version = "MuaXttG5"
+version = "76pCM25G"

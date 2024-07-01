@@ -1,13 +1,13 @@
 name = "FTB Quests (Forge)"
-filename = "ftb-quests-forge-2001.1.7.jar"
+filename = "ftb-quests-forge-2001.4.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8db7d0782e4816e8961a5514bf8474d5c8102bca"
+hash = "cf6a1be0d8d58bdb7a405ffb0b381db5d3e6695a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4816382
+file-id = 5418359
 project-id = 289412

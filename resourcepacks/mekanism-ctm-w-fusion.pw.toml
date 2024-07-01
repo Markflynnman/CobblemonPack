@@ -1,0 +1,13 @@
+name = "Mekanism CTM w/ Fusion"
+filename = "MekanismThings_CTM-Fusion_devbuild0.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63a044344f1b7c9a4e14c2e6d35cce25f3949567"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5013658
+project-id = 959102

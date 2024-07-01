@@ -1,0 +1,13 @@
+name = "Colorful Hearts"
+filename = "colorfulhearts-forge-1.20.1-4.2.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wQfMUdZT/versions/YpBT43to/colorfulhearts-forge-1.20.1-4.2.11.jar"
+hash-format = "sha1"
+hash = "6077df7a51074587095456381165b0c1e5b9bab5"
+
+[update]
+[update.modrinth]
+mod-id = "wQfMUdZT"
+version = "YpBT43to"
